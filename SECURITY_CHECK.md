@@ -53,7 +53,8 @@
 ## 8. Build & Release
 - 🔧 R8 (Minify und Shrink) für Release, nötige -dontwarn-Regeln für Tink
 - 🔧 Unit-Tests für Protokoll, IP- und Hostname-Prüfung (alle bestanden)
-- ⚠️ **Android-Teil nicht kompiliert**: in der Arbeitsumgebung war kein Android SDK verfügbar. Erster Build in Android Studio nötig.
+- ✅ Vollständiger Build und Unit-Tests laufen automatisch bei GitHub Actions (erster erfolgreicher Build am 08.10.2026)
+- ⚠️ Noch nicht auf einem echten Gerät getestet
 - ⚠️ Release-Signierung: eigener Keystore, nicht im Repo ablegen
 
 ## 9. Datenschutz
